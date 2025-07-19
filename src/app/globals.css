@@ -22,7 +22,7 @@
 }
 
 body {
-  background: var(--background);
+  background: #1a1a1a;
   color: var(--foreground);
 }
 
