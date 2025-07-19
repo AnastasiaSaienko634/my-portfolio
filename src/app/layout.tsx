@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <nav className="flex items-center  p-3 gap-2 sm:p-2 sm:gap-2 lg:p-5 lg:gap-4 lg:text-xl">
-          <h2 className="font-mono  font-bold ml-2 mr-2 sm:ml-2 sm:mr-2 lg:ml-10 lg:mr-10">
+          <h2 className="font-mono text-white  font-bold ml-2 mr-2 sm:ml-2 sm:mr-2 lg:ml-10 lg:mr-10">
             Anastasia
           </h2>
           <Link
@@ -49,7 +49,7 @@ export default function RootLayout({
           </Link>
           <Link
             href="/contact"
-            className="ml-auto mr-10 p-2 lg:p-3 border border-violet-300 rounded-2xl transition-colors hover:border-violet-500 duration-150 "
+            className="ml-auto mr-10 p-2 lg:p-3  text-gray-300 border border-violet-300 rounded-2xl transition-colors hover:border-violet-500 duration-150 "
           >
             Contacts
           </Link>

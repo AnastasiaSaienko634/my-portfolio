@@ -16,14 +16,14 @@ export default function Home() {
             className="  mx-auto "
           />
         </div>
-        <p className="flex  font-bold text-2xl  sm:text-3xl   lg:text-4xl   justify-center mt-4 ">
+        <p className="flex  font-bold text-2xl text-white sm:text-3xl   lg:text-4xl   justify-center mt-4 ">
           Anastasia Saienko
         </p>
 
         <p className="pt-3 pb-2 text-sm sm:text-xl lg:text-2xl font-bold glow-text flicker">
           Fullstack devolper
         </p>
-        <p className="w-90 sm:w-[400px] lg:w-170 text-center pt-2">
+        <p className="w-90 sm:w-[400px]  text-white lg:w-170 text-center pt-2">
           {" "}
           I am an 18-year-old Full-Stack Developer student currently studying at
           GoIT. I have a strong passion for coding and enjoy creating functional
@@ -34,7 +34,7 @@ export default function Home() {
         </p>
         <Link
           href="/contact"
-          className="mt-5 mb-10  py-2 px-6 border border-violet-300 rounded-3xl transition-all duration-150 hover:scale-105 hover:bg-violet-300 hover:text-gray-700"
+          className="mt-5 mb-10  py-2 px-6 border text-white border-violet-300 rounded-3xl transition-all duration-150 hover:scale-105 hover:bg-violet-300 hover:text-gray-700"
         >
           Contact me
         </Link>
