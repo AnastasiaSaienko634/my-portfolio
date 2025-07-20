@@ -37,15 +37,19 @@ export default function Navbar() {
 
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="md:hidden flex items-end text-3xl p-3 ml-auto"
+        className="md:hidden flex items-end text-white text-3xl p-3 ml-auto"
         aria-label="Toggle menu"
       >
-        {isOpen ? <MdClose /> : <RxHamburgerMenu />}
+        {isOpen ? (
+          <MdClose className="text-white" />
+        ) : (
+          <RxHamburgerMenu className="text-white" />
+        )}
       </button>
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-end gap-4  px-6 pb-4">
+        <div className="md:hidden flex flex-col text-white items-end gap-4  px-6 pb-4">
           <Link href="/" className="text-lg hover:text-blue-600">
             Home
           </Link>
