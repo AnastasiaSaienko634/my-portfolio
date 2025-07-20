@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
@@ -90,13 +92,6 @@ export default function ProjectsPage() {
             </div>
           </li>
           <li className="justify-center  bg-violet-400   rounded-2xl w-[350px]  h-[450px]">
-            <Image
-              src=""
-              width={350}
-              height={200}
-              className="h-[350px] rounded-t-2xl  "
-              alt="photo project"
-            />
             <div className="flex items-center">
               <div>
                 <h3 className="pt-2 pl-2 text-white font-bold">Soon</h3>
